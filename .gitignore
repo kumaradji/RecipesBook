@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Virtual Environment
+venv/
+env/
+
+# Django
+*.log
+db.sqlite3
+__pycache__
+media/
+
+# Frontend build
+/node_modules/
+/build/
+.DS_Store
+
+# Visual Studio Code
+.vscode/
+
+# Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/frontend/node_modules/
