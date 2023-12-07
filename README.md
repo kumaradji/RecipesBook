@@ -23,7 +23,8 @@ Swagger UI React для визуализации документации Swagge
 ### Бэкэнд (Django)
 1. Перейдите в каталог backend. 
 2. Установите зависимости: pip install -r requirements.txt. 
-3. Выполните миграции: python manage.py migrate. 
+3. Установите модуль: pip install drf-yasg
+4. Выполните миграции: python manage.py migrate.
 4. Запустите сервер разработки: python manage.py runserver.
 ### Фронтэнд (React)
 1. Перейдите в каталог frontend.
