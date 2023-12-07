@@ -27,13 +27,13 @@ const App = () => {
     <Router>
       {/* Navigation Bar */}
       <nav className="navbar">
-        <NavLink to="/" className="nav-link" activeClassName="active-link">
+        <NavLink to="/" className="nav-link" activeclassName="active-link">
           Категории
         </NavLink>
-        <NavLink to="/recipes" className="nav-link" activeClassName="active-link">
+        <NavLink to="/recipes" className="nav-link" activeclassName="active-link">
           Рецепты
         </NavLink>
-        <NavLink to="/swagger" className="nav-link" activeClassName="active-link">
+        <NavLink to="/swagger" className="nav-link" activeclassName="active-link">
           Swagger
         </NavLink>
       </nav>
