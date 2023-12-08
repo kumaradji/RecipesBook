@@ -2,6 +2,7 @@
 
 from django.db import models
 
+
 class Category(models.Model):
     """
     Модель Django для категорий блюд.
