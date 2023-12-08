@@ -7,11 +7,11 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
-import Categories from './components/Categories';
-import RecipesList from './components/RecipesList';
-import RecipeDetail from './components/RecipeDetail';
-import SwaggerComponent from './components/SwaggerComponent';
-import RecipesByCategoryList from './components/RecipesByCategoryList';
+import Categories from './components/Categories/Categories';
+import RecipesList from './components/RecipesList/RecipesList';
+import RecipeDetail from './components/RecipeDetail/RecipeDetail';
+import SwaggerComponent from './components/SwaggerComponent/SwaggerComponent';
+import RecipesByCategoryList from './components/RecipesByCategoryList/RecipesByCategoryList';
 import './styles/App.css';
 
 /**
